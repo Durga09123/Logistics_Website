@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./Image/logo.png">
+            </div>
+            <div class="nav-right">
+                <a href="#Home">Home</a>
+                <a href="#Service">Service</a>
+                <a href="#Tracking">Tracking</a>
+                <a href =#Blogs>Blogs</a>
+                <a href="#About_Us">About Us</a>
+                <a href="#Contact">Contact Us</a>
+            </div>
+
+            <i class="fa fa-bars" onclick="toggleMenu()"></i>
+            <div class="navbar-mobile">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Service">Service</a></li>
+                    <li><a href="#Tracking">Tracking</a></li>
+                    <li><a href="#Blogs">Blogs</a></li>
+                    <li><a href="#About_Us">About Us</a></li>
+                    <li><a href="#Contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="Home">
+        <div class="hero-content">
+            <h1>CargoHive Logistics - Delivering Excellence, One Mile at a Time!</h1>
+            <h3>Seamless Shipping. Reliable Delivery. Global Reach.</h3>
+            <p>From local deliveries to international freight, CargoHive ensures your shipments move efficiently and
+                securely. Experience hassle-free logistics with cutting-edge tracking and dedicated customer support.
+            </p>
+        </div>
+        <div class="hero-image">
+            <div class="animated-bg"></div>
+            <img src="./Image/section-1-img.webp" alt="CargoHive Logistics">
+        </div>
+    </section>
+
+    <section class="services" id="Service">
+        <h2>Our Services</h2>
+        <p>We offer a wide range of logistics solutions tailored to your needs.</p>
+        <div class="services-container">
+        </div>
+    </section>
+
+    <section class="tracking" id="Tracking">
+        <h2>Track Your Shipment</h2>
+        <p>Enter your tracking number below to get the latest status of your shipment.</p>
+        <div class="tracking-content">
+            <div class="tracking-form-container">
+                <div class="tracking-form">
+                    <input type="text" id="tracking-number" placeholder="Enter Tracking Number">
+                    <button id="track-button">Track</button>
+                </div>
+                <div class="tracking-result" id="tracking-result" style="display: none;">
+                </div>
+            </div>
+            <div class="map-container">
+                <img id="map-image" src="./Image/map.jpg" alt="Map" class="map-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="blog" id="Blogs">
+        <h2>Our Blog</h2>
+        <p>Stay updated with the latest news and insights from CargoHive Logistics.</p>
+        <div class="blog-container">
+            <div class="blog-post">
+                <img src="./Image/Blog/blog-1.jpg" alt="The Future of Logistics">
+                <div class="blog-post-content">
+                    <h3>The Future of Logistics : Trends to Watch in 2025 <br></h3>
+                    <p>Discover the latest trends shaping the logistics industry in 2024 and how CargoHive is leading
+                        the way.</p>
+                </div>
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog-post">
+                <img src="./Image/Blog/blog-2.jpg" alt="Technology is Revolutionizing Supply Chains">
+                <div class="blog-post-content">
+                    <h3>How Technology is Revolutionizing Supply Chains </h3>
+                    <p>Learn how technology is transforming supply chains and improving efficiency in logistics.</p>
+                </div>
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog-post">
+                <img src="./Image/Blog/blog-3.jpg" alt="Sustainable Logistics: Our Commitment to the Environment">
+                <div class="blog-post-content">
+                    <h3> Sustainable Logistics: Our Commitment to the Environment </h3>
+                    <p>
+                        Find out how CargoHive is reducing its carbon footprint and promoting sustainable logistics
+                        practices.
+
+                    </p>
+                </div>
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog-post">
+                <img src="./Image/Blog/blog-4.jpg" alt="Tips for Efficient Freight Management">
+                <div class="blog-post-content">
+                    <h3> Tips for Efficient Freight Management <br><br>
+                    </h3>
+                    <p> Explore practical tips for managing freight efficiently and reducing costs in your supply chain.
+                    </p>
+                </div>
+                <a href="#">Read More</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="about-hero" id="About_Us">
+        <h1>About Us</h1>
+        <p>Delivering Excellence, One Mile at a Time</p>
+    </section>
+
+    <section class="about-content">
+        <div class="about-section">
+            <div class="story-content">
+                <img src="./Image/company.jpg" alt="Our Story Image">
+                <p>Founded in 2023, CargoHive Logistics has grown from a small local delivery service to a leading logistics provider in Tamil Nadu. Our journey began with a single truck and a vision to revolutionize the logistics industry. Today, we operate a fleet of modern vehicles and serve clients across the region.</p>
+            </div>
+        </div>
+
+        <div class="about-section">
+            <h2>Our Mission</h2>
+            <p>Our mission is to provide seamless, reliable, and efficient logistics solutions that empower businesses
+                and individuals to thrive. We are committed to delivering excellence in every shipment, ensuring your
+                goods reach their destination safely and on time.</p>
+        </div>
+
+        <div class="about-section">
+            <h2>Our Team</h2>
+            <div class="team-container">
+                <div class="team-member">
+                    <img src="./Image/Team_members/person-1.jpg" alt="Team Member 1">
+                    <h3>John Doe</h3>
+                    <p>CEO & Founder</p>
+                </div>
+                <div class="team-member">
+                    <img src="./Image/Team_members/person-2.jpg" alt="Team Member 2">
+                    <h3>Jane Smith</h3>
+                    <p>Operations Manager</p>
+                </div>
+                <div class="team-member">
+                    <img src="./Image/Team_members/person-3.jpg" alt="Team Member 3">
+                    <h3>Michael Brown</h3>
+                    <p>Head of Technology</p>
+                </div>
+                <div class="team-member">
+                    <img src="./Image/Team_members/person-4.jpg" alt="Team Member 4">
+                    <h3>Sarah Johnson</h3>
+                    <p>Customer Support Lead</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-section">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonials-slider">
+                <div class="slides-container">
+                    <div class="slide">
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <p>"CargoHive Logistics has been a game-changer for our business. Their services are
+                                    reliable and efficient!"</p>
+                                <div class="star-rating">
+                                    ★★★★★
+                                </div>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="./Image/Testimonial/person-1.jpeg" alt="Client 1">
+                                <h3>Alice Johnson</h3>
+                                <p>CEO, TechCorp</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <p>"The team at CargoHive is professional and always goes the extra mile. Highly
+                                    recommended!"</p>
+                                <div class="star-rating">
+                                    ★★★★★
+                                </div>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="./Image/Testimonial/person-2.jpeg" alt="Client 2">
+                                <h3>Michael Smith</h3>
+                                <p>Founder, GreenSolutions</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <p>"CargoHive's commitment to sustainability is commendable. They deliver on time, every
+                                    time!"</p>
+                                <div class="star-rating">
+                                    ★★★★☆
+                                </div>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="./Image/Testimonial/person-3.jpeg" alt="Client 3">
+                                <h3>Emily Davis</h3>
+                                <p>COO, EcoGoods</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <p>"Their technology-driven approach has streamlined our supply chain like never
+                                    before."</p>
+                                <div class="star-rating">
+                                    ★★★☆☆
+                                </div>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="./Image/Testimonial/person-4.jpeg" alt="Client 4">
+                                <h3>David Wilson</h3>
+                                <p>CTO, InnovateTech</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <p>"CargoHive's customer support is exceptional. They truly care about their clients."
+                                </p>
+                                <div class="star-rating">
+                                    ★★★★★
+                                </div>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="./Image/Testimonial/person-5.jpeg" alt="Client 5">
+                                <h3>Sarah Brown</h3>
+                                <p>Marketing Director, BrightIdeas</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="testimonial">
+                            <div class="testimonial-content">
+                                <p>"We've been using CargoHive for years, and they've never let us down. Truly
+                                    dependable!"</p>
+                                <div class="star-rating">
+                                    ★★★★★
+                                </div>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="./Image/Testimonial/person-6.jpeg" alt="Client 6">
+                                <h3>James White</h3>
+                                <p>Operations Manager, SwiftLogistics</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="slider-button prev">&#10094;</button>
+                <button class="slider-button next">&#10095;</button>
+            </div>
+
+            <div class="pagination-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+                <span class="dot" data-index="4"></span>
+                <span class="dot" data-index="5"></span>
+            </div>
+    </section>
+
+    <footer >
+        <div class="footer-content" id="Contact" >
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Service">Services</a></li>
+                    <li><a href="#Tracking">Tracking</a></li>
+                    <li><a href="Blogs">Blogs</a></li>
+                    <li><a href="#About_Us">About Us</a></li>
+                    <li><a href="#Contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fa fa-envelope"></i> Email: info@cargohive.com</li>
+                    <li><i class="fa fa-phone"></i> Phone: 0461 2323453 , +91 9876543210</li>
+                    <li><i class="fa fa-map-marker"></i> Address: CargoHive Logistics, Madurai, TamilNadu</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 CargoHive Logistics. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
